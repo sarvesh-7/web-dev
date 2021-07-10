@@ -1,0 +1,71 @@
+*{
+font-family: "Comic Sans MS", cursive, sans-serif;
+box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+}
+
+.content{
+  background-color: grey;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 3px solid black;
+}
+p{
+  clear: right;
+  padding: 10px;
+}
+ .c1{
+	border-left: 3px solid black;
+  border-bottom : 3px solid black;
+	float: right;
+  width: 70px;
+  height: 35px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+#title1{
+  background-color: orange;
+}
+#title2{
+  background-color: red;
+  color: white;
+}
+#title3{
+  background-color: yellow;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+ .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 .content {
+    width: 97.5%;
+
+  }
+  
+}
