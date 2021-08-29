@@ -1,0 +1,33 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+}
+.navbar-brand{
+margin-left: 15px;
+}
+.navbar{
+	background-color: grey !important;
+	padding-bottom: 0;
+}
+a{
+	color: black !important;
+}
+.collapse{
+	background-color: white;
+}
+hr{
+	margin: 0;
+}
+button{
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.col-xs-12{
+	background-color: grey;
+}
+p{
+	font-size: 30px;
+}
